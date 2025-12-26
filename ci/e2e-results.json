@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-23T09:17:56.775Z",
-  "commit": "560dda301409092360ebe834f6a35058e7bb77fa",
+  "lastUpdated": "2025-12-26T06:18:32.823Z",
+  "commit": "96a4d3a2fdaec1a18594d17244644e640ffdd55f",
   "branch": "main",
   "type": "e2e",
   "worlds": {
@@ -42,8 +42,8 @@
     },
     "local": {
       "status": "passing",
-      "total": 675,
-      "passed": 659,
+      "total": 648,
+      "passed": 632,
       "failed": 0,
       "skipped": 16,
       "frameworks": {
@@ -68,8 +68,8 @@
           "failed": 0
         },
         "nextjs-turbopack": {
-          "total": 135,
-          "passed": 135,
+          "total": 108,
+          "passed": 108,
           "failed": 0
         },
         "nextjs-webpack": {
