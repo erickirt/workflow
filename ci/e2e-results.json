@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-28T18:30:48.716Z",
-  "commit": "62cde6dd8d911fdef4f64b45dc4e91887c48f540",
+  "lastUpdated": "2025-12-30T03:08:42.763Z",
+  "commit": "b21d0b35cce4411e78f56f834b0a5b0752a73162",
   "branch": "main",
   "type": "e2e",
   "worlds": {
@@ -14,22 +14,22 @@
       "progress": 97
     },
     "redis": {
-      "status": "partial",
+      "status": "failing",
       "total": 30,
-      "passed": 29,
-      "failed": 1,
+      "passed": 0,
+      "failed": 30,
       "skipped": 0,
       "frameworks": {},
-      "progress": 97
+      "progress": 0
     },
     "starter": {
-      "status": "partial",
+      "status": "failing",
       "total": 30,
-      "passed": 22,
-      "failed": 8,
+      "passed": 0,
+      "failed": 30,
       "skipped": 0,
       "frameworks": {},
-      "progress": 73
+      "progress": 0
     },
     "turso": {
       "status": "partial",
