@@ -1,128 +1,23 @@
 {
-  "lastUpdated": "2026-04-23T23:28:58.316Z",
-  "commit": "5889d84aefa8e85b50ea3dc7c53652fbc137da3c",
+  "lastUpdated": "2026-04-26T19:49:18.439Z",
+  "commit": "56ba32feb848cd99a01f113116ec4e00f8f10187",
   "branch": "main",
   "type": "e2e",
   "worlds": {
     "local": {
       "status": "passing",
-      "total": 2484,
-      "passed": 2300,
+      "total": 95,
+      "passed": 95,
       "failed": 0,
-      "skipped": 184,
+      "skipped": 0,
       "frameworks": {
-        "astro": {
-          "total": 184,
-          "passed": 172,
-          "failed": 0
-        },
-        "express": {
-          "total": 184,
-          "passed": 172,
-          "failed": 0
-        },
-        "fastify": {
-          "total": 184,
-          "passed": 172,
-          "failed": 0
-        },
-        "hono": {
-          "total": 184,
-          "passed": 172,
-          "failed": 0
-        },
         "nextjs-turbopack": {
-          "total": 460,
-          "passed": 422,
-          "failed": 0
-        },
-        "nextjs-webpack": {
-          "total": 368,
-          "passed": 330,
-          "failed": 0
-        },
-        "nitro": {
-          "total": 184,
-          "passed": 172,
-          "failed": 0
-        },
-        "nuxt": {
-          "total": 184,
-          "passed": 172,
-          "failed": 0
-        },
-        "sveltekit": {
-          "total": 184,
-          "passed": 172,
-          "failed": 0
-        },
-        "vite": {
-          "total": 184,
-          "passed": 172,
+          "total": 95,
+          "passed": 95,
           "failed": 0
         }
       },
-      "progress": 93
-    },
-    "postgres": {
-      "status": "partial",
-      "total": 1196,
-      "passed": 1102,
-      "failed": 2,
-      "skipped": 92,
-      "frameworks": {
-        "astro": {
-          "total": 92,
-          "passed": 86,
-          "failed": 0
-        },
-        "express": {
-          "total": 92,
-          "passed": 86,
-          "failed": 0
-        },
-        "fastify": {
-          "total": 92,
-          "passed": 86,
-          "failed": 0
-        },
-        "hono": {
-          "total": 92,
-          "passed": 86,
-          "failed": 0
-        },
-        "nextjs-turbopack": {
-          "total": 184,
-          "passed": 165,
-          "failed": 0
-        },
-        "nextjs-webpack": {
-          "total": 184,
-          "passed": 165,
-          "failed": 0
-        },
-        "nitro": {
-          "total": 92,
-          "passed": 86,
-          "failed": 0
-        },
-        "nuxt": {
-          "total": 92,
-          "passed": 86,
-          "failed": 0
-        },
-        "sveltekit": {
-          "total": 92,
-          "passed": 86,
-          "failed": 0
-        },
-        "vite": {
-          "total": 92,
-          "passed": 84,
-          "failed": 2
-        }
-      },
-      "progress": 92
+      "progress": 100
     }
   }
 }
