@@ -1,33 +1,68 @@
 {
-  "lastUpdated": "2026-08-03T13:42:34.600Z",
-  "commit": "a09d00135bd96f22bd1ae1dee6b5a6f797b7d804",
+  "lastUpdated": "2026-08-07T19:13:52.345Z",
+  "commit": "4174a6ea733d61709b5d66d31920badaad6df0a1",
   "branch": "main",
   "type": "e2e",
   "worlds": {
-    "local": {
-      "status": "partial",
-      "total": 924,
-      "passed": 845,
-      "failed": 1,
-      "skipped": 78,
+    "postgres": {
+      "status": "passing",
+      "total": 310,
+      "passed": 258,
+      "failed": 0,
+      "skipped": 52,
       "frameworks": {
-        "nextjs-webpack": {
-          "total": 154,
-          "passed": 153,
-          "failed": 1
-        },
-        "vite": {
-          "total": 154,
-          "passed": 128,
-          "failed": 0
-        },
-        "nextjs-turbopack": {
-          "total": 308,
-          "passed": 308,
+        "nitro": {
+          "total": 155,
+          "passed": 129,
           "failed": 0
         }
       },
-      "progress": 91
+      "progress": 83
+    },
+    "local": {
+      "status": "partial",
+      "total": 1395,
+      "passed": 1256,
+      "failed": 2,
+      "skipped": 137,
+      "frameworks": {
+        "fastify": {
+          "total": 155,
+          "passed": 129,
+          "failed": 0
+        },
+        "hono": {
+          "total": 155,
+          "passed": 129,
+          "failed": 0
+        },
+        "nextjs-turbopack": {
+          "total": 310,
+          "passed": 309,
+          "failed": 1
+        },
+        "nextjs-webpack": {
+          "total": 155,
+          "passed": 154,
+          "failed": 1
+        },
+        "nitro": {
+          "total": 155,
+          "passed": 129,
+          "failed": 0
+        },
+        "sveltekit": {
+          "total": 155,
+          "passed": 148,
+          "failed": 0
+        },
+        "vite": {
+          "total": 155,
+          "passed": 129,
+          "failed": 0
+        }
+      },
+      "progress": 90
     }
   }
 }
