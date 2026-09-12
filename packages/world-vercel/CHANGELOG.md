@@ -1,5 +1,20 @@
 # @workflow/world-vercel
 
+## 5.0.0-beta.46
+
+### Minor Changes
+
+- [#3833](https://github.com/vercel/workflow/pull/3833) [`d4817ce`](https://github.com/vercel/workflow/commit/d4817ce548216a48b155548be5b123483394f37a) Thanks [@alangenfeld](https://github.com/alangenfeld)! - Add the default-off, server-negotiated WebSocket transport for stateful stream writer sessions.
+
+### Patch Changes
+
+- [#4074](https://github.com/vercel/workflow/pull/4074) [`7740388`](https://github.com/vercel/workflow/commit/7740388d7fe1a744f04974c67fd583d2526658f4) Thanks [@alangenfeld](https://github.com/alangenfeld)! - Add first-write WebSocket phase timings to stream write spans.
+
+- [#4066](https://github.com/vercel/workflow/pull/4066) [`3aa4c16`](https://github.com/vercel/workflow/commit/3aa4c161af5b2fb6830fbd20e1e27e77a25acd76) Thanks [@alangenfeld](https://github.com/alangenfeld)! - Add bounded trace attributes identifying lazy step-start claim strategies and ownership stamps.
+- Updated dependencies [[`ec57aff`](https://github.com/vercel/workflow/commit/ec57aff3be53c7404191de41b7a140d814235efa)]:
+  - @workflow/world@5.0.0-beta.35
+  - @workflow/errors@5.0.0-beta.21
+
 ## 5.0.0-beta.45
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @workflow/world
 
+## 5.0.0-beta.35
+
+### Patch Changes
+
+- [#4021](https://github.com/vercel/workflow/pull/4021) [`ec57aff`](https://github.com/vercel/workflow/commit/ec57aff3be53c7404191de41b7a140d814235efa) Thanks [@VaguelySerious](https://github.com/VaguelySerious)! - When logging corrupt event logs due to replay divergence, specify the divergent events, and carry error message through retries
+
 ## 5.0.0-beta.34
 
 ### Minor Changes

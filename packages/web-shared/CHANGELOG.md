@@ -1,5 +1,14 @@
 # @workflow/web-shared
 
+## 5.0.0-beta.51
+
+### Patch Changes
+
+- [#3951](https://github.com/vercel/workflow/pull/3951) [`a5694d3`](https://github.com/vercel/workflow/commit/a5694d34baa5cc2d62cbab5776025cc94fb4fc77) Thanks [@mitul-s](https://github.com/mitul-s)! - Fix the events view flashing a partial eventData stub (ref fields stripped by `resolveData: 'none'`) before the full payload loads; events whose type carries no payload ref fields now render their complete inline data immediately without a redundant fetch.
+- Updated dependencies [[`ec57aff`](https://github.com/vercel/workflow/commit/ec57aff3be53c7404191de41b7a140d814235efa), [`938c7ff`](https://github.com/vercel/workflow/commit/938c7ffb07861f5a2cd5a7d5a2d1a8b1e11e6b9b), [`3aa4c16`](https://github.com/vercel/workflow/commit/3aa4c161af5b2fb6830fbd20e1e27e77a25acd76)]:
+  - @workflow/core@5.0.0-beta.51
+  - @workflow/world@5.0.0-beta.35
+
 ## 5.0.0-beta.50
 
 ### Patch Changes
