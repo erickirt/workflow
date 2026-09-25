@@ -1,5 +1,15 @@
 # @workflow/core
 
+## 5.0.0-beta.57
+
+### Patch Changes
+
+- [#4326](https://github.com/vercel/workflow/pull/4326) [`2694663`](https://github.com/vercel/workflow/commit/2694663aef5742a012cbfed30a021d67877bb82b) Thanks [@pranaygp](https://github.com/pranaygp)! - Mark `WorkflowRunFailedError` and `WorkflowRunCancelledError` as non-retryable, so a step that reads a terminal run's `returnValue` fails on its first attempt with the error intact instead of exhausting its retry budget first.
+- Updated dependencies [[`2694663`](https://github.com/vercel/workflow/commit/2694663aef5742a012cbfed30a021d67877bb82b)]:
+  - @workflow/errors@5.0.0-beta.24
+  - @workflow/world-local@5.0.0-beta.48
+  - @workflow/world-vercel@5.0.0-beta.52
+
 ## 5.0.0-beta.56
 
 ### Minor Changes
