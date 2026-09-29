@@ -1,5 +1,9 @@
 # @workflow/core
 
+## 5.0.0-beta.58
+
+No changes in this release.
+
 ## 5.0.0-beta.57
 
 ### Patch Changes

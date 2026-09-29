@@ -1,5 +1,11 @@
 # @workflow/web
 
+## 5.0.0-beta.58
+
+### Major Changes
+
+- [#3193](https://github.com/vercel/workflow/pull/3193) [`ad0fcc7`](https://github.com/vercel/workflow/commit/ad0fcc7e52cf27247daed86edad9f6635a23fc08) Thanks [@RihanArfan](https://github.com/RihanArfan)! - Replace Express with `srvx` in the standalone server, adding ETag/`304`, `Last-Modified`, byte ranges and on-the-fly compression.
+
 ## 5.0.0-beta.57
 
 ### Patch Changes
